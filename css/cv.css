@@ -1,0 +1,488 @@
+body{
+    background-color: rgb(246, 244, 244);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#section-home-image{
+    background-image: url(../image/pcb.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+#section-home-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(245, 245, 247);
+}
+
+#h1-home{
+    font-size: 5.0rem;
+    font-weight: 800;
+    font-family: Lucida Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+#h3-home{
+    font-size: 2.0rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin: 0px 0px 10px 0px;
+}
+
+#button-home{
+    background-color: rgb(245, 245, 247);
+    color: rgb(0, 0, 0);
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0px 0px 0px;
+}
+
+#menulist{
+    padding:0px;
+    position: relative;
+    overflow: auto;
+}
+
+#menulist li{
+    width:100px;
+    float: left;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+#menulist li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*SECTION ABOUT*/
+
+.section-header{
+    font-size: 2.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 50px 0px 10px 0px;   /*top right bottom left*/
+    padding: 50px 0px 0px 0px;   /*top right bottom left*/
+}
+
+#section-about{
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0px 0px 0px 0px;        /*top right bottom left*/
+    padding: 50px 0px 0px 0px;      /*top right bottom left*/
+}
+
+#aboutme-image{
+    position: relative;
+    float: left;
+    margin: 0px 0px 0px 0px;       /*top right bottom left*/
+    padding: 0px 50px 0px 0px;    /*top right bottom left*/
+}
+
+.hiremebutton{
+    /* background-color: rgb(20, 243, 39); */
+    background-color: rgb(20, 169, 243);    
+    color: rgb(0, 0, 0);
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px 0px 0px 0px;
+}
+
+#aboutme-p1{
+    font-size: 1.0rem;
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin: 10px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+}
+
+#aboutme-p2{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin: 10px 200px 10px 0px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding: 10px;
+}
+
+
+/*SECTION SKILLS*/
+
+#section-skills{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0px 0px 0px 0px;        /*top right bottom left*/
+    padding: 50px 0px 0px 0px;      /*top right bottom left*/
+}
+
+#skills-p1{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin: 50px 0px 0px 0px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 0px 0px 0px 50px;
+}
+
+/*SECTION SERVICES*/
+
+#section-services{
+    background-color: rgb(219, 219 , 219);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0px 0px 0px 0px;        /*top right bottom left*/
+    padding: 0px 0px 0px 0px;      /*top right bottom left*/
+}
+
+#sectionheadservices{
+    text-align: center;
+}
+
+#service1-image{
+    opacity: 0.7;
+    /* filter: grayscale(100%);  */
+    filter: sepia(100%);     
+    position: relative;
+    float: left;
+    margin: 50px 50px 0px 180px;       /*top right bottom left*/
+    padding: 0px 50px 0px 0px;    /*top right bottom left*/
+}
+
+#service2-image{
+    opacity: 0.7;
+    /* filter: grayscale(100%);  */
+    filter: sepia(100%);   
+    position: relative;
+    float: left;
+    margin: 50px 0px 0px 300px;       /*top right bottom left*/
+    padding: 0px 50px 0px 0px;    /*top right bottom left*/
+}
+
+#service3-image{
+    opacity: 0.7;
+    /* filter: grayscale(100%);  */
+    filter: sepia(100%);   
+    position: relative;
+    float: left;
+    margin: 50px 0px 0px 350px;       /*top right bottom left*/
+    padding: 0px 50px 0px 0px;    /*top right bottom left*/
+}
+
+#servicetable{
+    width: 100%;
+    margin: 150px 0px 00px 0px;        /*top right bottom left*/
+    padding: 0px 00px 0px 0px;      /*top right bottom left*/
+}
+
+#tableheadrow{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+#tabledatarow{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+
+/*SECTION RESUME*/
+
+#section-resume{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    /* margin: 100px 0px 0px 50px; */
+    margin: 0px 0px 0px 0px;        /*top right bottom left*/
+    padding: 50px 0px 0px 0px;      /*top right bottom left*/
+}
+
+#sectionheadresume{
+    text-align: center;
+}
+
+#resumeeduc{
+    float: left;
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+#resumeexperience{
+    float: left;
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+#resumeportfolio{
+    float: left;
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/*SECTION CONTACT*/
+
+#section-contact{
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* overflow: auto; */
+    /* margin: 100px 0px 0px 50px; */
+    margin: 0px 0px 0px 0px;        /*top right bottom left*/
+    padding: 0px 0px 0px 0px;      /*top right bottom left*/
+}
+
+#sectionheadcontact{
+    text-align: center;
+}
+
+.mycontactdetails{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 1;
+    width: 30%;
+    width: 100%;
+    margin: 50px 0px 00px 350px;        /*top right bottom left*/
+    padding: 0px 00px 0px 0px;      /*top right bottom left*/
+    position: relative;
+    float: left;
+}
+
+.mycontactentries{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    width: 30%;
+    width: 100%;
+    margin: 20px 0px 00px 350px;        /*top right bottom left*/
+    padding: 0px 00px 0px 0px;      /*top right bottom left*/
+    position: relative;
+    float: left;
+}
+
+#contdet{
+    float: left;
+}
+
+#contactform{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    /* width: 50%; */
+    margin: 50px 0px 00px 350px;        /*top right bottom left*/
+    padding: 0px 00px 0px 0px;      /*top right bottom left*/
+    position: relative;
+    float: left;
+}
+
+#contactname{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 1;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+#contactemail{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 1;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#contactmessage{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 1;
+    margin-right: 65px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+/* #id{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 1;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+} */
+
+#contactbutton{
+    font-size: 1.0rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 1;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#backtotop {
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 100;
+    border:none;
+    outline: none;
+    background-color: rgb(20, 169, 243); /*#0d74fc; */
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#backtotop:hover {
+    background-color: #555;
+}
+
+.resumehead{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-underline-position: below;
+    margin-right: 65px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.resumeitems{
+    font-size: 1.0rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin: 0px;
+    padding:0px;
+}
+
+.resumedetails0{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+}
+
+.resumedetails{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding:0px;
+}
+
+.weblink{
+    font-size: 1.0rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding:0px;
+}
+
+#footeritems{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+}
+
